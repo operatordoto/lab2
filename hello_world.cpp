@@ -5,10 +5,10 @@ int
 main()
 {
   std::string name;
-  // Request user name from standard input stream.
+  // Запрашиваем имя пользователя через стандартный поток ввода
   std::cout << "Enter your name: ";
   std::cin >> name;
-  // Print greeting to standard output stream.
+  // Выводим приветствие в стандартный поток вывода
   std::cout << "Hello world from @" << name << std::endl;
   return 0;
 }
